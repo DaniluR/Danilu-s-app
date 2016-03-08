@@ -59,7 +59,7 @@
 }
 
 body {
-	background: #1f253d;
+	background:Purple;
 }
 
 ul {
@@ -230,6 +230,7 @@ h1, h2, p, a, span{
 		border: 2px solid #50597b;
 		width: 40px;
 		height: 40px;
+		white-space: nowrap;
 	}
 
 
@@ -290,12 +291,14 @@ h1, h2, p, a, span{
 		.profile-menu {
 			float: right;
 			height: 80px;
-			padding-right: 20px;
+			padding-right: 10px;
+			width: 250px;
 		}
 			.profile-menu p {
 				font-size: 17px;
 				display: inline-block;
 				line-height: 76px;
+				height: 80px;
 				margin: 0;
 				padding-right: 10px;
 			}
@@ -307,7 +310,8 @@ h1, h2, p, a, span{
 					}
 			.small-profile-picture {
 				display: inline-block;
-				vertical-align: middle;				
+				vertical-align: middle;		
+				white-space: nowrap;
 			}
 	/** CONTAINERS **/
 	.container {
